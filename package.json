@@ -19,6 +19,8 @@
     "@heroicons/vue": "^1.0.6",
     "@pinia/nuxt": "^0.4.6",
     "@volar-plugins/vetur": "^0.1.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
     "pinia": "^2.0.30"
   },
   "overrides": {

@@ -4,5 +4,5 @@
 
 html,body, #__nuxt{
   height:100%!important;
-  background-color: lightblue;
+  background-color: rgb(17 24 39);
 }

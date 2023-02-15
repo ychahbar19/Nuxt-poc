@@ -9,11 +9,11 @@ export const content = [
   "./nuxt.config.{js,ts}",
 ]
 export const theme = {
-  colors: {
-    ...colors,
-    primary: '#18181B',
-    secondary: '#00DC82',
+  extend: {
+    colors: {
+      primary: '#18181B',
+      secondary: '#00DC82',
+    },
   },
-  extend: {},
 }
 export const plugins = []

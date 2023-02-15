@@ -1,5 +1,5 @@
 <template>
-	<div class="overflow-hidden bg-white shadow sm:rounded-md">
+	<div class="overflow-hidden bg-gray-50 shadow sm:rounded-md">
 		<ul
 			role="list"
 			v-for="category in categories"
@@ -9,7 +9,7 @@
 			<li>
 				<NuxtLink
 					:to="`/product/${category.id}`"
-					class="block hover:bg-gray-50"
+					class="block hover:bg-gray-100"
 				>
 					<div class="px-4 py-4 sm:px-6">
 						<div class="flex items-center justify-between">
